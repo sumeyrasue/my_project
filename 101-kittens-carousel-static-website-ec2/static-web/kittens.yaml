@@ -10,7 +10,7 @@ Description: |
   anywhere. Kittens Carousel Static Website 
   is downloaded from my Public Github repository,
   then deployed on Apache Web Server.
-  
+
 Resources:
   WebServerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
@@ -31,7 +31,7 @@ Resources:
     Properties:
       ImageId: ami-0bef6cc322bfff646
       InstanceType: t2.micro
-      KeyName: first-key-pair
+      KeyName: XXXXXXXXXXX
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
       Tags:
